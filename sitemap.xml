@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://holmestimes.club/contact/index.html</loc>
+    
+    <lastmod>2019-11-23T14:57:14.132Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://holmestimes.club/friends/index.html</loc>
     
-    <lastmod>2019-11-23T12:30:15.839Z</lastmod>
+    <lastmod>2019-11-23T14:57:05.868Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://holmestimes.club/about/index.html</loc>
+    
+    <lastmod>2019-11-23T14:55:48.797Z</lastmod>
     
   </url>
   
@@ -16,23 +30,9 @@
   </url>
   
   <url>
-    <loc>https://holmestimes.club/contact/index.html</loc>
-    
-    <lastmod>2019-11-23T12:30:15.838Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://holmestimes.club/categories/index.html</loc>
     
     <lastmod>2019-11-23T12:30:15.837Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://holmestimes.club/about/index.html</loc>
-    
-    <lastmod>2019-11-23T12:30:15.836Z</lastmod>
     
   </url>
   
