@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Repair boot</title>
+      <link href="/2019/11/25/repair-boot/"/>
+      <url>/2019/11/25/repair-boot/</url>
+      
+        <content type="html"><![CDATA[<p>作为一名合格的编程人员，应该拥有一台安装有双系统的电脑（windows &amp;&amp; linux），今天来讲讲怎么瞎搞才不会把两个系统弄瘫痪。这里我选择了windows10 + ubuntu18.04.</p><h1 id="删除系统"><a href="#删除系统" class="headerlink" title="删除系统"></a>删除系统</h1><p>当你不再爱linux了，并且你想尽快的让它从你眼中消失。只需下面几步</p><h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>进入windows，右击我的电脑，打开管理，进入磁盘管理</p><h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>选中你linux系统所在的盘块，右键删除卷（这里会提示这不是windows的xxxx），然后重复2直到你把linux占的空间全删除了</p><h2 id="step-3"><a href="#step-3" class="headerlink" title="step 3"></a>step 3</h2><p>如果你此时重启了，那么恭喜你，电脑将不能正常启动（切忌）。</p><p><code>win+R</code>进入运行，输入<code>cmd</code>进入终端。<code>diskpart</code>进入磁盘管理，</p><p><code>select disk 0</code>选中系统盘(如果不知道哪个数字代表系统盘用<code>list disk</code>查看)</p><p><code>select partition 0</code>选中系统分区（不知道哪个分区代表系统分区用<code>list partition</code>查看）</p><p><code>assign letter = x</code>分配一个临时的盘符（x可以是任何不与你现有盘符重复的字母，这里直接用x）</p><p>动用鼠标用管理员身份打开记事本（按下<code>win</code>，键盘输入<code>记事本</code>，右键以管理员身份打开）</p><p>点击打开文件，找到刚才的x盘，然后进入，点击UEFI文件夹，发现下面有ubuntu文件夹，右键删除该文件夹</p><p>至此，你已经成功完成了ubuntu系统的删除QWQ</p><p>（才不会说我懒得配图就没有图呢QAQ）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Os </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>考试资源</title>
       <link href="/2019/11/24/kao-shi-zi-yuan/"/>
       <url>/2019/11/24/kao-shi-zi-yuan/</url>
