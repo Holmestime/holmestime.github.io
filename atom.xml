@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://holmestimes.club/"/>
-  <updated>2019-11-25T08:27:50.075Z</updated>
+  <updated>2019-11-26T03:10:21.317Z</updated>
   <id>https://holmestimes.club/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>package management</title>
+    <link href="https://holmestimes.club/2019/11/26/package-management/"/>
+    <id>https://holmestimes.club/2019/11/26/package-management/</id>
+    <published>2019-11-26T03:01:51.000Z</published>
+    <updated>2019-11-26T03:10:21.317Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Package-Management&quot;&gt;&lt;a href=&quot;#Package-Management&quot; class=&quot;headerlink&quot; title=&quot;Package Management&quot;&gt;&lt;/a&gt;Package Management&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="Os" scheme="https://holmestimes.club/categories/Os/"/>
+    
+    
+      <category term="Ubuntu" scheme="https://holmestimes.club/tags/Ubuntu/"/>
+    
+  </entry>
   
   <entry>
     <title>Repair boot</title>
