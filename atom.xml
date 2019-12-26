@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://holmestimes.club/"/>
-  <updated>2019-12-19T16:35:45.000Z</updated>
+  <updated>2019-12-26T02:47:17.995Z</updated>
   <id>https://holmestimes.club/</id>
   
   <author>
@@ -17,63 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://holmestimes.club/2019/12/26/vue-study-1/config/index/"/>
-    <id>https://holmestimes.club/2019/12/26/vue-study-1/config/index/</id>
-    <published>2019-12-26T02:41:40.572Z</published>
-    <updated>2019-12-19T16:35:45.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          //  &quot;/api&quot;:{
-//             target: &#39;http://49.234.42.121:8080&#39;,
-//             changeOrigin: true,
-//             pathRewrite: {
-//       
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://holmestimes.club/2019/12/26/vue-study-1/src/main/"/>
-    <id>https://holmestimes.club/2019/12/26/vue-study-1/src/main/</id>
-    <published>2019-12-26T02:35:30.833Z</published>
-    <updated>2019-12-26T02:22:02.222Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          import Vue from &#39;vue&#39;
-import &#39;./plugins/vuetify&#39;
-import App from &#39;./App.vue&#39;
-import router from &#39;./router&#39;
-import store from
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Vue study-1</title>
     <link href="https://holmestimes.club/2019/12/26/vue-study-1/"/>
     <id>https://holmestimes.club/2019/12/26/vue-study-1/</id>
     <published>2019-12-26T01:23:08.000Z</published>
-    <updated>2019-12-26T02:45:11.949Z</updated>
+    <updated>2019-12-26T02:47:17.995Z</updated>
     
     <summary type="html">
     
