@@ -4,18 +4,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Fisrt Test, Holmestime 深度学习">
+    <meta name="keywords" content="Vue study-1, Holmestime 深度学习">
     <meta name="baidu-site-verification" content="ewwbB8sWgV">
     <!--
     <meta name="google-site-verification" content="" /> 
     <meta name="360-site-verification" content="" />
     !-->
 
-    <meta name="description" content="这是第一篇随笔测试,逐渐开始我的博客生活QAQ
-
-我遇见谁，会有怎样的对白。我等的人，她在多远的未来。
-
-">
+    <meta name="description" content="概述本次文章讲述对于vue的基础使用。Vue.js是一个用于创建用户界面的开源JavaScript框架，也是一个创建单页应用的Web应用框架。网站链接
+一些比较友好的扩展系列，比如Vuex和Vuetify等等，都能极大的提高Vue编程的效率">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +20,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Fisrt Test | Holmestime&#39;s blog</title>
+    <title>Vue study-1 | Holmestime&#39;s blog</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -297,13 +294,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Fisrt Test
+                        Vue study-1
                     </div>
                 </div>
             </div>
@@ -414,8 +411,8 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/随笔/" target="_blank">
-                            <span class="chip bg-color">随笔</span>
+                        <a href="/tags/Vue/" target="_blank">
+                            <span class="chip bg-color">Vue</span>
                         </a>
                         
                     </div>
@@ -426,8 +423,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/随笔/" class="post-category" target="_blank">
-                            随笔
+                        <a href="/categories/Web-front-end/" class="post-category" target="_blank">
+                            Web front end
                         </a>
                         
                     </div>
@@ -438,7 +435,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-11-23
+                    2019-12-26
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -452,14 +449,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    42
+                    1.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
                 
@@ -475,10 +472,93 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>这是第一篇随笔测试,逐渐开始我的博客生活<br>QAQ</p>
-<blockquote>
-<p>我遇见谁，会有怎样的对白。<br>我等的人，她在多远的未来。</p>
-</blockquote>
+                <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本次文章讲述对于vue的基础使用。Vue.js是一个用于创建用户界面的开源JavaScript框架，也是一个创建单页应用的Web应用框架。<a href="https://cn.vuejs.org/index.html" target="_blank" rel="noopener">网站链接</a></p>
+<p>一些比较友好的扩展系列，比如Vuex和Vuetify等等，都能极大的提高Vue编程的效率。</p>
+<h2 id="Api"><a href="#Api" class="headerlink" title="Api"></a>Api</h2><p>一个前端几乎必然会涉及到的是连接一个后台服务器。最简单的方法是</p>
+<h3 id="Step-1"><a href="#Step-1" class="headerlink" title="Step 1"></a>Step 1</h3><p>在全局建立一个api.js。内容大致如下：</p>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">'axios'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> axios<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    baseURL<span class="token punctuation">:</span> <span class="token string">'xxxx/Everitoken/'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>其中baseURL为服务器提供的链接基址。比如基址为xxxx/Everitoken/。而在后续调用中只用填写相应服务的部分地址即可</p>
+<h3 id="Step-2"><a href="#Step-2" class="headerlink" title="Step 2"></a>Step 2</h3><p>在需要与服务器进行相关操作的界面xxx.vue的<code>&lt;script&gt;&lt;/script&gt;</code>中间导入</p>
+<p><code>import api from &#39;../../../config/Api.js&#39;</code>.导入后便可以在当前文件下使用<code>api()</code>的方式进行调用。</p>
+<p>调用示例：</p>
+<pre class="line-numbers language-vue"><code class="language-vue">login(){
+    let consignee = {
+        "phone":this.userRegistry.username,
+        "code": this.userRegistry.pwd          
+    }
+    api().post(`Account/login`,consignee)
+    .then(response => {
+        // alert(response.data.msg)
+        if (response.data.code === 0) {
+        this.$store.commit('updateInfo',{phone:consignee.phone})
+        this.$router.push('/user')                        
+    } else {
+        alert('认证失败')
+        }    
+    })
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>调用分为几个步骤：</p>
+<ul>
+<li>建立数据</li>
+<li>建立连接</li>
+<li>回应处理</li>
+</ul>
+<h4 id="建立数据"><a href="#建立数据" class="headerlink" title="建立数据"></a>建立数据</h4><p>将数据单独命名有利于代码的规范化。</p>
+<h4 id="建立连接"><a href="#建立连接" class="headerlink" title="建立连接"></a>建立连接</h4><p>此处采用的是post方法，参数为<code>(地址,数据)</code> 。登陆见面的接口地址为xxxx/Everitoken/Account/login.由于前面基址的设置，此处只用填入Account/login即可。</p>
+<h4 id="回应处理"><a href="#回应处理" class="headerlink" title="回应处理"></a>回应处理</h4><p>与数据后台的交互大多发生在这个阶段。</p>
+<p>一般当检测到<code>response.data.code</code>为0时，即后台接收了本次访问请求，返回的数据包含在<code>response.data</code>里，将相应的属性与本网页的相关属性进行绑定即可。</p>
+<h2 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h2><p>想起之前用本地的文件流作为后台时的艰难时光，采用文件读入的方法对用户名和密码进行验证，效率实在太低了QAQ</p>
+<p>登录一般也分为几个步骤：</p>
+<ul>
+<li>建立输入框，属性绑定</li>
+</ul>
+<p>即在输入框中的v-model与属性进行绑定即可</p>
+<ul>
+<li>事件函数的书写</li>
+</ul>
+<p>实例见前面Api处的login函数</p>
+<h2 id="全局配置"><a href="#全局配置" class="headerlink" title="全局配置"></a>全局配置</h2><p>不同的网页之间需要数据的关联，这个时候需要对数据的一些存储。</p>
+<p>一个总体的结构（这五个文件均在store文件夹下）</p>
+<p><code>index.js</code></p>
+<p><code>actions.js</code><br><code>getters.js</code><br><code>mutations.js</code><br><code>mutation-types.js</code></p>
+<p>这里只讲述一个简单的前段会用到的。<code>mutations.js</code>和<code>mutation-types.js</code></p>
+<p><code>index.js</code>是全局部分的对外接口，该文件中需要对上述的几个文件进行导入。</p>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
+<span class="token keyword">import</span> Vuex <span class="token keyword">from</span> <span class="token string">'vuex'</span>
+<span class="token keyword">import</span> mutations <span class="token keyword">from</span> <span class="token string">'./mutations'</span>
+<span class="token keyword">import</span> actions <span class="token keyword">from</span> <span class="token string">'./actions'</span>
+<span class="token keyword">import</span> getters <span class="token keyword">from</span> <span class="token string">'./getters'</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Vuex<span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> state <span class="token operator">=</span> <span class="token punctuation">{</span>
+    login<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>   <span class="token comment" spellcheck="true">// 登录的状态</span>
+    username<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span>  <span class="token comment" spellcheck="true">//用户名</span>
+    money<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token comment" spellcheck="true">//余额</span>
+    pwd<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//密码</span>
+    identity<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//身份证号</span>
+    realname<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//真实姓名</span>
+    location<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//地址</span>
+    phone<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//手机号用于查询用户信息</span>
+    year<span class="token punctuation">:</span><span class="token keyword">null</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//驾龄</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    state<span class="token punctuation">,</span>
+    actions<span class="token punctuation">,</span>
+    getters<span class="token punctuation">,</span>
+    mutations
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>进行了一些变量的定义后，那么如何对其进行调用呢？需要在项目的总配置文件<code>main.js</code>中导入index.js所在的文件夹，比如这里在store文件夹下，因为<code>import store from ./store/</code>，并在<code>new Vue()的成分中加入store</code>,此后在所有的项目文件中，均可以利用this.$store.state.xxx进行xxx变量的调用。</p>
+<p>mutations.js是用来存储一些函数的。那么是哪些函数呢？</p>
+<p>需要注意的是，通过上述的方法可以对变量进行调用，但不能进行更改，即该方法的属性是只读的（理解为这样既可）。一些更新的函数既可在此处进行定义。函数的调用及属性更改需要进行如下操作：</p>
+<p>在需要使用的Vue文件的<code>&lt;script&gt;&lt;/script&gt;</code>中加入<code>import {mapMutations} from &#39;vuex&#39;</code>，意思是说采用了Mutations中的函数，名字不可替换。在methods中导入<code>...mapMutations([&#39;updateInfo&#39;])</code>，即进行相关函数的导入。变量的更改通过<code>this.$store.commit(&#39;updateInfo&#39;,{phone:consignee.phone})</code>进行操作，变量为<code>(函数操作,数据集合)</code></p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>此处为简化的一个项目结构的文件<a href="./sample.rar">代码下载</a></p>
 
             </div>
             <hr />
@@ -637,9 +717,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《Fisrt Test》
+                    《Vue study-1》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/11/23/2017-conclusion/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/12/26/vue-study-1/" property="cc:attributionName"
                rel="cc:attributionURL">
                 Holmestime
             </a> 采用
@@ -680,7 +760,7 @@
         repo: 'holmestime.github.io',
         owner: 'Holmestime',
         admin: ["Holmestime"],
-        id: '2019/11/23/2017-conclusion/',
+        id: '2019/12/26/vue-study-1/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -967,44 +1047,33 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/11/24/kao-shi-zi-yuan/">
+                <a href="/2019/12/26/vue-study-1/src/main/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="考试资源">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">考试资源</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            考试资源
+                            import Vue from 'vue'
+import './plugins/vuetify'
+import App from './App.vue'
+import router from './router'
+import store 
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-24
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-26
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/考试/" class="post-category" target="_blank">
-                                    考试
-                                </a>
-                            
-                            
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/考试/" target="_blank">
-                        <span class="chip bg-color">考试</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -1013,46 +1082,45 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/11/23/2017-conclusion/">
+                <a href="/2019/11/26/package-management/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Fisrt Test">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="package management">
                         
-                        <span class="card-title">Fisrt Test</span>
+                        <span class="card-title">package management</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            第一次测试
+                            Some preparations for ubuntu
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-23
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-26
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/随笔/" class="post-category" target="_blank">
-                                    随笔
+                            <a href="/categories/Os/" class="post-category" target="_blank">
+                                    Os
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/随笔/" target="_blank">
-                        <span class="chip bg-color">随笔</span>
+                    <a href="/tags/Ubuntu/" target="_blank">
+                        <span class="chip bg-color">Ubuntu</span>
                     </a>
                     
                 </div>
@@ -1199,6 +1267,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
     <footer class="page-footer bg-color">
     <div class="container row center-align">
