@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://holmestimes.club/"/>
-  <updated>2019-12-26T02:47:17.995Z</updated>
+  <updated>2019-12-31T15:49:19.784Z</updated>
   <id>https://holmestimes.club/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019 Review</title>
+    <link href="https://holmestimes.club/2019/12/31/2019-review/"/>
+    <id>https://holmestimes.club/2019/12/31/2019-review/</id>
+    <published>2019-12-31T15:48:44.000Z</published>
+    <updated>2019-12-31T15:49:19.784Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;2019-Review&quot;&gt;&lt;a href=&quot;#2019-Review&quot; class=&quot;headerlink&quot; title=&quot;2019 Review&quot;&gt;&lt;/a&gt;2019 Review&lt;/h1&gt;&lt;h2 id=&quot;Start&quot;&gt;&lt;a href=&quot;#Start&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Review" scheme="https://holmestimes.club/categories/Review/"/>
+    
+    
+      <category term="Review" scheme="https://holmestimes.club/tags/Review/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue study-1</title>
