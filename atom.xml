@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://holmestimes.club/"/>
-  <updated>2019-12-31T15:49:19.784Z</updated>
+  <updated>2020-02-20T15:07:19.592Z</updated>
   <id>https://holmestimes.club/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My college</title>
+    <link href="https://holmestimes.club/2020/02/20/my-college/"/>
+    <id>https://holmestimes.club/2020/02/20/my-college/</id>
+    <published>2020-02-20T15:03:40.000Z</published>
+    <updated>2020-02-20T15:07:19.592Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这是汇总的珍藏的所有计算机科学丛书的资源&lt;br&gt;（侵权请立刻联系进行删除）&lt;br&gt;&lt;a href=&quot;https://pan.baidu.com/s/1nB1spGRBW6tSYQiGZEIeIw&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="计算机科学" scheme="https://holmestimes.club/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+      <category term="资源" scheme="https://holmestimes.club/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
   
   <entry>
     <title>2019 Review</title>
