@@ -4,15 +4,16 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="package management, Holmestime 深度学习">
+    <meta name="keywords" content="BCI, Holmestime 深度学习">
     <meta name="baidu-site-verification" content="ewwbB8sWgV">
     <!--
     <meta name="google-site-verification" content="" /> 
     <meta name="360-site-verification" content="" />
     !-->
 
-    <meta name="description" content="Package ManagementDescriptionEnvironment : ubuntu 18 or ubuntu 16
-Deletesudo apt remove -y libreoffice-common  unity-web">
+    <meta name="description" content="BCI learningWhat’s a BCI? Brain-computer interface. Sometimes,it can also be called BMI(Brain-computer interface).
+# 
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +21,7 @@ Deletesudo apt remove -y libreoffice-common  unity-web">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>package management | Holmestime&#39;s blog</title>
+    <title>BCI | Holmestime&#39;s blog</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -294,13 +295,13 @@ Deletesudo apt remove -y libreoffice-common  unity-web">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        package management
+                        BCI
                     </div>
                 </div>
             </div>
@@ -411,8 +412,8 @@ Deletesudo apt remove -y libreoffice-common  unity-web">
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/Ubuntu/" target="_blank">
-                            <span class="chip bg-color">Ubuntu</span>
+                        <a href="/tags/BCI/" target="_blank">
+                            <span class="chip bg-color">BCI</span>
                         </a>
                         
                     </div>
@@ -423,8 +424,8 @@ Deletesudo apt remove -y libreoffice-common  unity-web">
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/Os/" class="post-category" target="_blank">
-                            Os
+                        <a href="/categories/introduction/" class="post-category" target="_blank">
+                            introduction
                         </a>
                         
                     </div>
@@ -435,7 +436,7 @@ Deletesudo apt remove -y libreoffice-common  unity-web">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-11-26
+                    2020-12-09
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -449,14 +450,14 @@ Deletesudo apt remove -y libreoffice-common  unity-web">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    572
+                    18
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    1 分
                 </div>
                 
                 
@@ -472,111 +473,8 @@ Deletesudo apt remove -y libreoffice-common  unity-web">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Package-Management"><a href="#Package-Management" class="headerlink" title="Package Management"></a>Package Management</h1><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p><code>Environment : ubuntu 18 or ubuntu 16</code></p>
-<h2 id="Delete"><a href="#Delete" class="headerlink" title="Delete"></a>Delete</h2><p><code>sudo apt remove -y libreoffice-common  unity-webapps-common thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese transmission-common gnome-orca webbrowser-app gnome-sudoku  landscape-client-ui-install onboard deja-dup</code></p>
-<h2 id="ADD"><a href="#ADD" class="headerlink" title="ADD"></a>ADD</h2><ul>
-<li>install some essentials</li>
-</ul>
-<p>you can install this essential pacakges by(included vim make wget curl cmake unrar):</p>
-<p><code>sudo apt install -y vim make wget curl cmake unrar</code> </p>
-<ul>
-<li>addtional installation</li>
-</ul>
-<p>WPS</p>
-<p><code>sudo apt install wps-office</code></p>
-<h1 id="Cuda"><a href="#Cuda" class="headerlink" title="Cuda"></a>Cuda</h1><h2 id="Step-1"><a href="#Step-1" class="headerlink" title="Step 1"></a>Step 1</h2><p>go to the official website to get the xxxx.run</p>
-<h2 id="Step-2"><a href="#Step-2" class="headerlink" title="Step 2"></a>Step 2</h2><p>run the file by</p>
-<p><code>sudo sh xxx.run</code></p>
-<h2 id="Step-3"><a href="#Step-3" class="headerlink" title="Step 3"></a>Step 3</h2><p>gedit the environment variable</p>
-<p><code>sudo gedit /etc/profile</code></p>
-<p>add the following things</p>
-<p><code>export CUDA_HOME=/usr/local/cuda-9.0</code></p>
-<p><code>export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}</code></p>
-<p><code>export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</code></p>
-<blockquote>
-<p>Notice: </p>
-<p>This setteing is default and the cuda version is 9.0.</p>
-<p>If you install it in a different path or  install a different version,just gedit the path with you like</p>
-<p>Recommend:</p>
-<p>ubuntu 16.04 + cuda 9.0</p>
-<p>ubuntu 18.04 + cuda 10.0</p>
-</blockquote>
-<p>renew</p>
-<p><code>source /etc/profile</code></p>
-<h2 id="Step-4"><a href="#Step-4" class="headerlink" title="Step 4"></a>Step 4</h2><p>if you successfully install it,you can see the version output by</p>
-<p><code>nvcc -V</code></p>
-<h2 id="Step-5-Additonal"><a href="#Step-5-Additonal" class="headerlink" title="Step 5 (Additonal)"></a>Step 5 (Additonal)</h2><p>you can test the samples if you like</p>
-<p><code>cd  /usr/local/cuda-9.0/samples/1_Utilities/deviceQuery</code></p>
-<blockquote>
-<p>This command is mainly depend on the path you install the samples</p>
-<p>I just test one thing here</p>
-<p>If you want to see all the results </p>
-<ul>
-<li>cd /usr/local/cuda-9.0/samples</li>
-<li>sudo make -j8</li>
-</ul>
-</blockquote>
-<p>compile</p>
-<p><code>sudo make</code></p>
-<p>run</p>
-<p><code>./deviceQuery</code></p>
-<h1 id="Cudnn"><a href="#Cudnn" class="headerlink" title="Cudnn"></a>Cudnn</h1><h2 id="Step-1-1"><a href="#Step-1-1" class="headerlink" title="Step 1"></a>Step 1</h2><p>go to the official website to get the file and unrar it</p>
-<h2 id="Step-2-1"><a href="#Step-2-1" class="headerlink" title="Step 2"></a>Step 2</h2><p>copy and move the file</p>
-<p><code>sudo cp include/cudnn.h /usr/local/cuda/include/</code><br><code>sudo cp lib64/* /usr/local/cuda/lib64/</code><br><code>cd /usr/local/cuda/lib64</code><br><code>sudo ln -sf libcudnn.so.7.2.1 libcudnn.so.7</code><br><code>sudo ln -sf libcudnn.so.7 libcudnn.so</code><br><code>sudo ldconfig -v</code></p>
-<h1 id="Opencv"><a href="#Opencv" class="headerlink" title="Opencv"></a>Opencv</h1><h2 id="Step-1-2"><a href="#Step-1-2" class="headerlink" title="Step 1"></a>Step 1</h2><p>install the dependency pacakges</p>
-<p><code>sudo apt install -y libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler</code></p>
-<p><code>sudo apt-get install --no-install-recommends libboost-all-dev -y
-sudo apt-get install libopenblas-dev liblapack-dev libatlas-base-dev -y
-sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev -y
-sudo apt-get install git cmake build-essential -y</code></p>
-<h2 id="Step-2-2"><a href="#Step-2-2" class="headerlink" title="Step 2"></a>Step 2</h2><p>gedit the  environment variable</p>
-<p><code>sudo gedit ~/.bashrc</code></p>
-<blockquote>
-<p>if you use the bash then gedit the .bashrc</p>
-<p>else if you use the zsh then gedit the .zshrc</p>
-</blockquote>
-<p>add the things followed</p>
-<p><code>export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH</code></p>
-<p><code>export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH</code></p>
-<h2 id="Step-3-1"><a href="#Step-3-1" class="headerlink" title="Step 3"></a>Step 3</h2><p>go to the official website to install the package</p>
-<p><a href="https://opencv.org/releases.html" target="_blank" rel="noopener">https://opencv.org/releases.html</a></p>
-<p>move to the file you unrar </p>
-<ul>
-<li>the present path should lnclude many folders and files</li>
-</ul>
-<p><code>mkdir build</code></p>
-<p><code>cd build</code></p>
-<p><code>cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..</code></p>
-<p><code>make -j8</code></p>
-<p><code>sudo make install</code></p>
-<p>check the version</p>
-<p><code>pkg-config --modversion opencv</code></p>
-<blockquote>
-<p>Notice:</p>
-<p>version : </p>
-<ul>
-<li><p>ubuntu16 + opencv3.4.2 </p>
-<ul>
-<li>around this version</li>
-</ul>
-</li>
-<li><p>ubuntu18 + opencv3.4.7 </p>
-<ul>
-<li>around the newest can be fine</li>
-</ul>
-</li>
-</ul>
-<p>otherwise</p>
-<p>you will meet some troublesome errors which is terrible</p>
-<p>And you can also install opencv4.1.x</p>
-<p>but in someways it will be lack of some files and you should add it manually </p>
-</blockquote>
-<h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>I write it for those who has some fundamental knowledges</p>
-<p>So i don’t indicate the fundamental operations too much</p>
-<p>Next time!</p>
-<blockquote>
-<p>Three O’cat is still a game</p>
-</blockquote>
+                <h1 id="BCI-learning"><a href="#BCI-learning" class="headerlink" title="BCI learning"></a>BCI learning</h1><p>What’s a BCI? Brain-computer interface. Sometimes,it can also be called BMI(Brain-computer interface).</p>
+<p># </p>
 
             </div>
             <hr />
@@ -735,9 +633,9 @@ sudo apt-get install git cmake build-essential -y</code></p>
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《package management》
+                    《BCI》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/11/26/package-management/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/12/09/bci/" property="cc:attributionName"
                rel="cc:attributionURL">
                 Holmestime
             </a> 采用
@@ -778,7 +676,7 @@ sudo apt-get install git cmake build-essential -y</code></p>
         repo: 'holmestime.github.io',
         owner: 'Holmestime',
         admin: ["Holmestime"],
-        id: '2019/11/26/package-management/',
+        id: '2020/12/09/bci/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1063,38 +961,41 @@ sudo apt-get install git cmake build-essential -y</code></p>
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
             </div>
             <div class="card">
                 <div class="card-content article-content">
-                    <a href="/2019/12/26/vue-study-1/">
+                    <a href="/2020/12/09/bci/">
                         <div class="summary block-with-text">
                             
-                                Vue Study
+                                BCI learningWhat’s a BCI? Brain-computer interface. Sometimes,it can also be called BMI(Brain-computer interface).
+# 
+
                             
                         </div>
                     </a>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-26
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-12-09
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Web-front-end/" class="post-category" target="_blank">
-                                    Web front end
+                            <a href="/categories/introduction/" class="post-category" target="_blank">
+                                    introduction
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Vue/" target="_blank">
-                        <span class="chip bg-color">Vue</span>
+                    <a href="/tags/BCI/" target="_blank">
+                        <span class="chip bg-color">BCI</span>
                     </a>
                     
                 </div>
@@ -1110,23 +1011,23 @@ sudo apt-get install git cmake build-essential -y</code></p>
             </div>
             <div class="card">
                 <div class="card-content article-content">
-                    <a href="/2019/11/25/repair-boot/">
+                    <a href="/2019/12/31/2019-review/">
                         <div class="summary block-with-text">
                             
-                                该死的ubuntu
+                                2019 Review
                             
                         </div>
                     </a>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-25
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-31
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Os/" class="post-category" target="_blank">
-                                    Os
+                            <a href="/categories/Review/" class="post-category" target="_blank">
+                                    Review
                                 </a>
                             
                             
@@ -1136,8 +1037,8 @@ sudo apt-get install git cmake build-essential -y</code></p>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Ubuntu/" target="_blank">
-                        <span class="chip bg-color">Ubuntu</span>
+                    <a href="/tags/Review/" target="_blank">
+                        <span class="chip bg-color">Review</span>
                     </a>
                     
                 </div>

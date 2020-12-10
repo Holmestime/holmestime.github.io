@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://holmestimes.club/"/>
-  <updated>2019-12-31T15:49:19.784Z</updated>
+  <updated>2020-12-10T12:25:14.431Z</updated>
   <id>https://holmestimes.club/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BCI</title>
+    <link href="https://holmestimes.club/2020/12/09/bci/"/>
+    <id>https://holmestimes.club/2020/12/09/bci/</id>
+    <published>2020-12-09T01:41:00.000Z</published>
+    <updated>2020-12-10T12:25:14.431Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;BCI-learning&quot;&gt;&lt;a href=&quot;#BCI-learning&quot; class=&quot;headerlink&quot; title=&quot;BCI learning&quot;&gt;&lt;/a&gt;BCI learning&lt;/h1&gt;&lt;p&gt;What’s a BCI? Brain-computer
+        
+      
+    
+    </summary>
+    
+      <category term="introduction" scheme="https://holmestimes.club/categories/introduction/"/>
+    
+    
+      <category term="BCI" scheme="https://holmestimes.club/tags/BCI/"/>
+    
+  </entry>
   
   <entry>
     <title>2019 Review</title>
