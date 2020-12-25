@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://holmestimes.club/"/>
-  <updated>2020-12-10T12:32:59.289Z</updated>
+  <updated>2020-12-25T01:24:44.442Z</updated>
   <id>https://holmestimes.club/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>BCI</title>
-    <link href="https://holmestimes.club/2020/12/09/bci/"/>
-    <id>https://holmestimes.club/2020/12/09/bci/</id>
-    <published>2020-12-09T01:41:00.000Z</published>
-    <updated>2020-12-10T12:32:59.289Z</updated>
+    <title>New start</title>
+    <link href="https://holmestimes.club/2020/12/25/new-start/"/>
+    <id>https://holmestimes.club/2020/12/25/new-start/</id>
+    <published>2020-12-25T01:20:06.000Z</published>
+    <updated>2020-12-25T01:24:44.442Z</updated>
     
     <summary type="html">
     
@@ -29,42 +29,16 @@
       
         
         
-          &lt;h1 id=&quot;BCI-learning&quot;&gt;&lt;a href=&quot;#BCI-learning&quot; class=&quot;headerlink&quot; title=&quot;BCI learning&quot;&gt;&lt;/a&gt;BCI learning&lt;/h1&gt;&lt;p&gt;What’s a BCI? Brain-computer
+          &lt;h1 id=&quot;新的开始&quot;&gt;&lt;a href=&quot;#新的开始&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
-      <category term="introduction" scheme="https://holmestimes.club/categories/introduction/"/>
+      <category term="随笔" scheme="https://holmestimes.club/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="BCI" scheme="https://holmestimes.club/tags/BCI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019 Review</title>
-    <link href="https://holmestimes.club/2019/12/31/2019-review/"/>
-    <id>https://holmestimes.club/2019/12/31/2019-review/</id>
-    <published>2019-12-31T15:48:44.000Z</published>
-    <updated>2019-12-31T15:49:19.784Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;2019-Review&quot;&gt;&lt;a href=&quot;#2019-Review&quot; class=&quot;headerlink&quot; title=&quot;2019 Review&quot;&gt;&lt;/a&gt;2019 Review&lt;/h1&gt;&lt;h2 id=&quot;Start&quot;&gt;&lt;a href=&quot;#Start&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Review" scheme="https://holmestimes.club/categories/Review/"/>
-    
-    
-      <category term="Review" scheme="https://holmestimes.club/tags/Review/"/>
+      <category term="随笔" scheme="https://holmestimes.club/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -73,7 +47,7 @@
     <link href="https://holmestimes.club/2019/12/26/vue-study-1/"/>
     <id>https://holmestimes.club/2019/12/26/vue-study-1/</id>
     <published>2019-12-26T01:23:08.000Z</published>
-    <updated>2019-12-26T02:47:17.995Z</updated>
+    <updated>2020-12-25T01:29:07.858Z</updated>
     
     <summary type="html">
     
@@ -90,7 +64,7 @@
       <category term="Web front end" scheme="https://holmestimes.club/categories/Web-front-end/"/>
     
     
-      <category term="Vue" scheme="https://holmestimes.club/tags/Vue/"/>
+      <category term="Vue从入门到入土" scheme="https://holmestimes.club/tags/Vue%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9C%9F/"/>
     
   </entry>
   
@@ -99,7 +73,7 @@
     <link href="https://holmestimes.club/2019/11/26/package-management/"/>
     <id>https://holmestimes.club/2019/11/26/package-management/</id>
     <published>2019-11-26T03:01:51.000Z</published>
-    <updated>2019-11-26T03:10:21.317Z</updated>
+    <updated>2020-12-25T01:27:11.405Z</updated>
     
     <summary type="html">
     
@@ -125,7 +99,7 @@
     <link href="https://holmestimes.club/2019/11/25/repair-boot/"/>
     <id>https://holmestimes.club/2019/11/25/repair-boot/</id>
     <published>2019-11-25T07:50:10.000Z</published>
-    <updated>2019-11-25T08:27:50.075Z</updated>
+    <updated>2020-12-25T01:28:24.665Z</updated>
     
     <summary type="html">
     
@@ -143,7 +117,7 @@
       <category term="Os" scheme="https://holmestimes.club/categories/Os/"/>
     
     
-      <category term="Ubuntu" scheme="https://holmestimes.club/tags/Ubuntu/"/>
+      <category term="Ubuntu从入门到入土" scheme="https://holmestimes.club/tags/Ubuntu%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9C%9F/"/>
     
   </entry>
   

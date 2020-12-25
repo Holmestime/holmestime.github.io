@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://holmestimes.club/2020/12/09/bci/</loc>
-    <lastmod>2020-12-10</lastmod>
-  </url>  <url>
-    <loc>https://holmestimes.club/2019/12/31/2019-review/</loc>
-    <lastmod>2019-12-31</lastmod>
-  </url>  <url>
     <loc>https://holmestimes.club/2019/12/26/vue-study-1/</loc>
-    <lastmod>2019-12-26</lastmod>
-  </url>  <url>
-    <loc>https://holmestimes.club/2019/11/26/package-management/</loc>
-    <lastmod>2019-11-26</lastmod>
+    <lastmod>2020-12-25</lastmod>
   </url>  <url>
     <loc>https://holmestimes.club/2019/11/25/repair-boot/</loc>
-    <lastmod>2019-11-25</lastmod>
+    <lastmod>2020-12-25</lastmod>
+  </url>  <url>
+    <loc>https://holmestimes.club/2019/11/26/package-management/</loc>
+    <lastmod>2020-12-25</lastmod>
+  </url>  <url>
+    <loc>https://holmestimes.club/2020/12/25/new-start/</loc>
+    <lastmod>2020-12-25</lastmod>
   </url>
 </urlset>
